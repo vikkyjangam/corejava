@@ -1,0 +1,1167 @@
+Dt: 6/9/2021
+ 
+Introduction to Java:
+
+Language
+
+=>Alphabets
+
+=>Grammer(Syntax)
+
+=>Construction Rules
+
+
+
+Note:
+
+=>Every language will have its own Alphabets,Grammer and Constructions
+
+
+
+Parts:
+
+a.Corejava 
+b.AdvJava
+
+
+a.Corejava:
+
+=>CoreJava provides the following Programming components or Java Alphabets:
+1.Variables
+2.Methods 
+3.Blocks
+4.Constructors
+5.Classes
+6.Interfaces
+7.AbstractClasses
+
+
+=>The following concepts are available from Corejava:
+ 
+1.Object Oriented Programming Concept.
+2.Exception Handling process
+3.	Multi-Threading process
+4.	Java Collection Framework(JCF) 
+ 5.IO Streams and Files 
+ 6.NetworkingGUI
+ 
+ 
+ 
+ (Graphical User Interface) 
+ 1.AWT(Abstract Window Toolkit) 
+ 2.Swing
+ 3.Applet
+ 4.javaFx
+
+
+
+=>CoreJava provides the following Object Oriented features
+1.Class 
+2.Object
+3.Abstraction
+4.Encapsulation
+5.PolyMprphism
+6.Inheritance
+
+
+Note:
+
+=>Using CoreJava Components and Concepts we can develop StandAlone applications.
+ 
+faq:
+
+define StandAlone applications?
+
+=>The applications which are installed in one computer and performs actions in the same computer are known as StandAlone applications.
+
+
+According to developer, No HTML input
+No Server Environment No DataBase Connection
+---------------------------------------------------------------------------------------
+
+b.AdvJava:
+
+=>AdvJava provides the following technologies used in Constructing WebApplications: 
+1.JDBC
+2.Servlet
+3.JSP
+
+
+=>JDBC stands for 'Java DataBase Connectivity' and which is used to establish communication b/w JavaProgram and DataBase product.
+=>'Servlet' means 'Server program' and which is used to accept the request from User/client.
+=>JSP stands for 'Java Server page' and which is response from WebApplication.
+  
+===============================================Define Program?(Syllabus)=======================================================================================================
+
+=>Program is a set-of-Instructions.
+
+ 
+define Programming?
+
+=>The process used in constructing programs is known as Programming process.
+
+ 
+
+define programmer?
+
+=>The person who writes programs is known as Programmer.
+
+
+
+Note:
+
+=>The programs are saved with language extention. Exp:
+ 
+Test.c Test.cpp Test.java
+
+
+=>After writing and Saving the program,the program will have the following two stages:
+1.	Compilation Stage
+2.Execution Stage
+
+
+1.	Compilation Stage:
+
+=>The process of checking the program constructed within the rules of language or not,is known as Compilation process.
+Note:
+
+=>After Compilation process,
+
+=>c and c++ programs generate Objective code
+
+=>Java Programs generate Byte Code
+
+
+
+2.	Execution Stage:
+
+=>The process of running the compiled code and checking the required output is generated or not,is known as Execution process.
+Note:
+
+=>In c and c++ programs the Objective Code is converted into Executable code and generate result.
+=>In Java programs the Byte code is loaded onto JVM(Java Virtual Machine) for execution.
+
+
+ Dt : 7/9/2021  ========faq:====>
+
+wt is the diff b/w (i)Objective Code (ii)Byte Code
+
+
+(i)	Objective Code:
+
+=>The compiled code generated from c/c++ programs is known as Objedctive Code.
+ 
+=>while Objective code generation,OperatingSystem(PlatForm) is participated,because of this reason Objective code is PlatForm dependent code.
+Dis-Advantage:
+=>The objective code which is generated from one PlatForm cannot be executed on other PlatForms.
+ 
+Note:
+
+=>The c and c++ languages which are generating Objective code are PlatForm dependent languages.
+
+
+(ii)	Byte Code:
+
+=>The Compiled code generated from java programs is known as Byte Code.
+
+=>while Byte code generation operatingSystem(PlatForm) is NotParticipated,because of this reason ByteCode is PlatForm independent code.
+Advantage:
+=>The ByteCode generated from one PlatForm can be executed on all the PlatForms,based on JVM.
+
+ 
+ Note:
+=>The JavaLanguage which is generating ByteCode is PlatForm independent language.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+Define High Level Language
+              =>The Language programs constructed from user understandable formats,is known as Hight Level Language.
+                             Ex:- c,c++,Java
+
+Define Low Level language?
+             =>The Language program formats which are not understandable by the user,is known as Low Level language.
+                                            Exp:
+                                                  Machine language
+ 
+define Translator?
+
+              =>Translator is used to convert one language format into another language format,which means HLL format to LLL format and LLL format to HLL.
+
+
+=>These Translators are categorized into two types: 
+    (i)Compilers
+    (ii)Interpreters
+
+(i)	Compilers - Compiler Translates total program at-a-time 
+(ii)Interpreters - Interpreter Translates the program line-by-line
+===================================================================================== Dt :8/9/2021
+Java Versions: 1995 - Java Alpha 1996 - JDK 1.0
+1997 - JDK 1.1
+
+1998 - JDK 1.2
+
+2000 - JDK 1.3
+
+2002 - JDK 1.4
+
+-----------------------------------
+
+2004 - Java5(Tiger java)
+
+=>JDK 1.5
+
+=>JRE 1.5
+
+2006 - Java6
+
+=>JDK 1.6
+ 
+=>JRE 1.6
+
+2011 - Java7
+
+=>JDK 1.7
+
+=>JRE 1.7
+
+----------------------------------- 2014 - Java8
+=>JDK 1.8
+
+=>JRE 1.8
+
+2017 - Java9
+
+=>JDK 1.9
+
+=>JRE 1.9
+
+2018 - Java10,Java11
+
+2019 - Java12,Java13
+
+2020 - Java14,Java15
+
+2021 - Java16
+
+-------------------------------------------------------------------------------------
+
+faq:
+
+wt is the diff b/w 
+(i)JDK
+(ii)JRE
+
+
+
+
+(i)JDK:
+
+=>JDK stands for 'Java Development Kit' and which provides JavaCompiler,JavaLibrary and JVM.
+ 
+    JavaCompiler - is used to compile the Source code and generate the ByteCode.
+    JavaLib - provides PreDefined components used in application development
+    JVM	- is used to execute JavaByteCode.
+ 
+ 
+================================> 
+Define JavaLib?
+
+    =>JavaLib is represented using the word 'java'.
+
+    =>JavaLib is collection of 'packages'
+
+    =>packages are collection of 'Classes and Interfaces'
+
+    =>Classes and Interfaces are collection of 'Variables and methods'
+
+ 
+    =>The following are some important packages from JavaLib:
+
+"CoreJava":
+
+java.lang - Language package
+java.io	- Input/Output package 
+java.util -   Utility package
+java.net		- Networking package
+
+
+"GUI":
+
+java.awt	- Abstract Window Toolkit package
+javax.swing - swing programming package
+java.applet - Applet programming package
+
+
+"AdvJava":
+
+java.sql	- DataBase Connection package
+javax.servlet - Servlet programming package
+javax.servlet.jsp - JSP programming package
+
+
+(ii)JRE:
+
+=>JRE stands for 'Java Runtime Environment' and which contains only JavaLib and JVM.
+
+===============================================================================================================================================================================
+
+Dt : 9/9/2021
+ 
+ 
+
+Installing Java s/w and Setting path:
+
+step-1 : Find the System environmnet(System type) where the JDK going to be installed. step-2 : Download JDK(JDK16) from Oracle WebSite
+step-3 : Install JDK Note:
+=>After installation process we can find one folder with name 'java' in 'ProgramFiles'.
+
+C:\Program Files\Java
+
+step-4 : Set path in 'Environment' variables
+ 
+RightClick on MyComputer->Properties->Advanced System Settings->Environment Variables, click 'new' from System Variables
+Variable name : path
+
+Variable value : C:\Program Files\Java\jdk-16.0.2\bin; step-5 : Click 'ok' for three times,the JavaPath is setted.
+------------------------------------------------------------------------------------------
+
+Note:
+
+=>Open CommandPrompt and check the following commands are working or not javac - Used for Compilation process
+java   -   Used for Execution process
+
+=====================================================================================
+
+dt : 11/9/2021 faq:
+define Environment Variables?
+
+=>The variables which are controlled and managed by the operatingSystem are known as 'Environment variables'
+=>Environment variables are categorized into two types:
+(a)User variables
+(b)System variables 
+
+
+(a)User variables:
+=>The information in User variables can be used by only individual user
+
+(b)System variables:
+=>The information in System variables can be used by all the users of Computer System. Note:
+=>In above installation process,the s/w information is kept in System variables
+ 
+faq:
+
+wt is the advantage of setting JavaPath in Environment variables?
+
+=>when we set a JavaPath in Environment variables,then the JavaProgram can be compiled and executed from any location of Computer System
+
+==================================================================================================================================================================================
+
+Dt : 17/9/2021
+
+*imp
+
+ define 'Class'?
+
+=>'Class' is a 'Structured Layout' and which is used to generate Objects.
+=>Class in Java is a collection of Variables,Methods(functions) and main().
+
+Variables	- to hold data 
+Methods(functions) - to perform actions
+main()	- is the starting point of program execution.
+
+=>we use 'class' keyword to construct classes in Java. Structure of class in Java:
+
+
+                                       class Class_name
+
+                                        {
+
+                                           //variables
+
+                                          //methods
+
+                                          //main()
+
+                                         }
+ 
+Note:
+
+=>In JavaLang main() method is having the following Standard format "public static void main(String args[])"
+
+ 
+ 
+
+Example program:
+
+wap to display the msg as "Welcome to Java Programming"? class Display
+{
+
+public static void main(String args[])
+
+{
+
+System.out.print("Welcome to Java Programming");
+
+}
+
+}
+
+
+
+Writing,Saving,Compiling and Executing Java Program:
+
+step-1 : Create one folder(destination folder) in any drive E:\Demo123
+step-2 : Open EditPlus(any text Editor) and type the program
+
+          Open EditPlus->Browse and select destination folder(Demo123)
+         ->click on 'File'->new->Jave and type the program
+step-3 : Save the program in destination folder
+syntax:
+Class_name.java
+
+
+Exp:
+Display.java
+
+Click on 'File'->Save->name the file(Display.java) and click 'save' Note:
+=>Open CommandPrompt and perform,Compilation and Execution process.
+
+To open CommandPrompt->GoTo destination folder->type 'cmd' in address bar and press 'Enter'.
+ 
+ 
+ step-4 : Compile the program as follows
+   syntax:
+
+          javac Class_name.java Exp:
+          javac Display.java
+
+step-5 : Execute the program as follows 
+syntax:
+            java Class_name Exp:
+            java Display
+
+=====================================================================================
+
+Example program-2:
+
+wap to add two numbers and display the result? class Addition
+{
+
+public static void main(String[] args)
+
+{
+
+int a=12,b=13; int c = a+b;
+System.out.println("The value of a="+a); System.out.println("The value of b="+b);
+ 
+System.out.println("The sum="+c);
+
+}
+
+}
+
+
+
+o/p:
+
+The value of a=12 The value of b=13 The sum=25
+=====================================================================================
+
+dt : 18/9/2021
+
+*imp
+
+           ==============================='DATATYPES IN JAVA'===============================
+
+=>The types of data which we are expecting as input to Java programs are known as 'DataTypes in Java'.
+
+=>DataTypes in Java are categorized into two types: 
+1.Primitive DataTypes
+2.NonPrimitive DataTypes
+
+
+
+1.	Primitive DataTypes:
+
+=>'Single valued data formats' are known as Primitive datatypes.
+
+=>Primitive DataTypes are categorized into the following:
+(a)Integer DataTypes
+(b)Float DataTypes
+(c)Character DataType 
+(d)Boolean DataType
+
+
+
+(a)	Integer DataTypes:
+
+=>The numeric data which is represented without decimal point,is known as Integer datatype.
+Types:
+ (i)	byte	- 1 byte(8 bits) 
+ (ii)short   -  2 bytes 
+ (iii)int   -   4 bytes
+ (iv)long - 8 bytes
+
+
+Note:
+
+=>byte and short datatypes are used for Stream data,which means used for Multi-Media data. (Audio,Video,Image,Animation and Text)
+=>int datatype is used in normal programming.
+
+=>long data type is used to hold very large values like PhoneNo,cardNo,...
+
+=>when we want to assign long value,we must use 'l' or 'L' in the RHS of declaration. Ex:
+long l = 9898981234L;
+
+
+
+
+
+(b)	Float DataTypes:
+
+=>The numeric data with decimal point representation is known as Float datatype. Types:
+(i)	float - 4 bytes (ii)double - 8 bytes
+ 
+Note:
+
+=>float datatype is used in normal programming.
+
+=>when we want to assign float value,we must use 'f' or 'F' in the RHS of declaration.
+ 
+=>double datatype is used to hold very large scietific calculated values.
+
+
+ 
+ 
+ 
+
+(c)	Character DataType:
+
+=>The 'single valued' character represented in single quotes is known as 'Character data type' Ex:
+'k','i','r',...
+
+Types :
+
+char - 2 bytes
+
+
+
+(d)	Boolean DataType:
+
+=>The datatype which is represented in the form of true or false,is known as Boolean datatype.
+
+
+
+Types:
+
+boolean - 1 bit
+
+----------------------------------------------------------------------------------------------
+
+
+
+Ex program : DataTypes.java class DataTypes
+{
+
+public static void main(String[] args)
+
+{
+
+byte b = 127;
+ 
+short s = 32767; int i = 456782;
+long l = 9898981234L;
+
+float f = 12.34F; double d = 12345.678; char ch = 'A';
+boolean bl = true;
+ System.out.println("byte value:"+b);
+ System.out.println("short value:"+s);
+ System.out.println("int value:"+i);
+ System.out.println("long value:"+l);
+ System.out.println("float value:"+f);
+ System.out.println("double value:"+d);
+System.out.println("char value:"+ch); 
+ System.out.println("boolean value:"+bl);
+}
+
+}
+
+
+
+o/p:
+
+byte value:127 short value:32767 int value:456782
+long value:9898981234 float value:12.34 double value:12345.678
+ 
+char value:A boolean value:true
+
+
+
+
+
+
+
+
+
+
+
+=====================================================================================
+
+*imp
+
+2.	NonPrimitive DataTypes:
+
+=>'Group Valued data formats' are known as NonPrimitive datatypes or Referential datatypes
+
+=>NonPrimitive datatypes are categorized into the following:
+(a)Class
+(b)Interface 
+(c)Array
+(d)Enum
+=====================================================================================
+
+Assignment1:
+
+wap to evaluate the following:
+ 
+(i)	z = x+y/(a*b);
+
+(ii) c = (a*b)/(x*y)+(p*q);
+
+===================================================================================== Dt : 21/9/2021
+*imp
+
+Object Oriented Progrmming:
+
+=>The process of constructing programs using class-object concept is known as Object Oriented programming.
+=>In Object Oriented programming we control the following NonPrimitive datatypes or referentia datatypes:
+1.Class 2.Interface 3.Array 4.Enun
+
+
+*imp 1.Class:
+
+
+=>class is a 'structured layout' in java and which generates objects.
+
+=>class is a collection of variables and methods.
+
+=>class is loaded onto method_area of JVM.
+
+=>classes in Java are categorized into two types: 
+(a)User defined classes
+(b)Built-in classes
+
+
+
+(a)	User defined classes:
+ 
+=>The classes which are defined by the programmer are known as User defined classes.
+ 
+(b)Built-in classes:
+
+=>The classes which are available from JavaLib are known as Built-in classes or PreDefined Classes
+
+
+*imp
+
+Define Object?
+
+=>Object is a memory related to a class holding the members of classs.
+
+=>we use ‘new’ keyword in java to create objects
+
+=>syntax of object creation using ‘new’ keyword:
+
+Class_name obj_name = new Class_name();
+
+Note:
+=>In the process of constructing applications we use SubClass and MainClass 
+SubClass – Class which is declared without main() method.
+MainClass – Class which is declared with main() method 
+
+
+
+
+
+Ex program:
+Wap to display user details using Class-Object Concept?
+ 
+ 
+ Class User
+{
+
+String name,mailId;
+
+Void getUserDetails()
+
+{
+
+System.out.println(“name:”+name); System.out.println(“MailId:”+mailId);
+}
+
+}
+ 
+Class UserMainClass
+
+{
+
+Public static void main(String[] args)
+
+{
+
+User u = new User(); u.name=”Raj”; u.mailId=”raj@gmail.com”; u.getUserDetails();
+}
+
+}
+
+
+================================================================================================================================================================================
+
+Dt : 22/9/2021
+
+wap to display Employee details using Class-Object Concept?
+
+
+
+EmployeeData
+
+=>empId,empName,empDesg,empBSal
+
+=>void getEmployeeData() EmployeeAddress
+=>hNo,sName,city,pinCode
+
+=>void getEmployeeAddress() EmployeeContact
+=>phoneNo,mailId
+
+=>void getEmployeeContact() EmployeeMainClass
+=>public static void main(String[] args)
+ 
+=====================================================================================
+
+Assignment1:
+
+wap to display Student details using Class-object concept?
+
+
+
+StudentData
+
+=>rollNo,stuName,branch
+
+=>void getStudentData() StudentAddress
+=>hNo,sName,city,pinCode
+
+=>void getStudentAddress() StudentContact
+=>phoneNo,mailId
+
+=>void getStudentContact() StudentMainClass
+=>public static void main(String[] args)
+
+
+
+Assignment2:
+
+wap to display Customer details using Class-Object concept? CustomerData
+=>accNo,custName,balance,accType
+
+=>void getCustomerData() CustomerAddress
+=>hNo,sName,city,pinCode
+
+=>void getCustomerAddress() CustomerContact
+ 
+=>phoneNo,mailId
+
+=>void getCustomerContact() CustomerMainClass
+=>public static void main(String[] args)
+
+====================================================================================
+
+*imp
+
+'Scanner' class:
+
+=>'Scanner' class is a Built-in class from JavaLib available from 'util' package.
+
+=>'Scanner' class will provide the following Built-in methods which are used in reading the data into Java programs:
+
+
+1.	nextByte()  -    to read byte data 
+2.nextShort()   -    to read short data
+3.nextInt()     -    to read int data
+4.nextLong()    -    to read long data
+5.nextFloat()   -    to read float data
+6.nextDouble()  -    to read double data 
+7.nextBoolean() -    to read boolean data
+8.nextLine()    -    to read String data
+
+
+Dt : 23/9/2021
+
+Ex program : DemoInput.java
+
+
+
+o/p:
+ 
+Enter the name:
+
+Raj
+
+Enter PhoneNo:
+
+9898981234
+
+Enter the percentage:
+
+67.78
+
+Name:Raj PhoneNo:9898981234 Per:67.78
+=====================================================================================
+
+Ex program : wap to read and display Product details using class-object concept?
+
+
+
+o/p:
+
+Enter the ProdCode:
+
+A111
+
+Enter the ProdName:
+
+CDR
+
+Enter the ProdPrice:
+
+456.78
+
+Enter the ProdQty:
+
+12
+
+=====Product details===== ProdCode:A111 ProdName:CDR ProdPrice:456.78
+ 
+ProdQty:12
+
+=====================================================================================
+
+Assignment1:
+
+wap to read and display User details using Class-object concept?
+
+
+
+UserDetails
+
+=>uName,pWord,fName,lName,addr,mailId,phoneNo
+
+=>void getUserDetails() UserMainClass2.java
+=>public static void main(String args[])
+
+
+
+Assignment2:
+
+Update BookDetails program by reading and displaying
+
+===================================================================================== Dt : 24/9/2021
+Note:
+
+
+=>The data will be skipped when we read String data,after reading numeric data like byte,short,int,long,float and double.
+=>This can be overcomed using the following Built-in parse methods:
+
+
+
+byte b = Byte.parseByte(s.nextLine()); 
+short s1 = Short.parseShort(s.nextLine());
+int i = Integer.parseInt(s.nextLine());
+long l = Long.parseLong(s.nextLine());
+float f = Float.parseFloat(s.nextLine());
+double d = Double.parseDouble(s.nextLine());
+
+
+
+Note:
+
+=>Byte,Short,Integer,Long,Float and Double are built-in WrapperClasses.
+
+-------------------------------------------------------------------------
+
+Ex program : DemoInput2.java
+import java.util.Scanner;
+class DemoInput2 //MainClass
+
+{
+
+public static void main(String[] args)
+
+{
+
+Scanner s = new Scanner(System.in); 
+System.out.println("Enter the name:");
+ String name = s.nextLine();
+ System.out.println("Enter the PhoneNo:");
+long phoneNo = Long.parseLong(s.nextLine());
+ System.out.println("Enter the MailId:");
+ String mailId = s.nextLine();
+ System.out.println("Name:"+name); 
+ System.out.println("PhoneNo:"+phoneNo); 
+ System.out.println("MailId:"+mailId);
+}
+
+}
+
+o/p:
+
+Enter the name:
+ 
+Raj
+
+Enter the PhoneNo:
+
+9898981234
+
+Enter the MailId: raj@gmail.com Name:Raj PhoneNo:9898981234
+MailId:raj@gmail.com
+
+
+==========================================================================
+
+Ex program : Update EmployeeMainClass.java
+ 
+import java.util.Scanner; class EmployeeData
+{
+
+String empId,empName,empDesg; int empBSal;
+void getEmployeeData()
+
+{
+
+System.out.println("====EmployeeData====");
+ System.out.println("EmpId:"+empId);
+System.out.println("EmpName:"+empName);
+ System.out.println("EmpDesg:"+empDesg); System.out.println("EmpBSal:"+empBSal);
+}
+
+}
+
+class EmployeeAddress
+
+{
+
+String hNo,sName,city; int pinCode;
+void getEmployeeAddress()
+
+{
+
+System.out.println("=====EmployeeAddress====="); 
+ System.out.println("HNo:"+hNo); 
+ System.out.println("SName:"+sName);
+ System.out.println("City:"+city);
+ System.out.println("PinCode:"+pinCode);
+ 
+}
+
+}
+
+class EmployeeContact
+
+{
+
+long phoneNo; String mailId;
+void getEmployeeContact()
+
+{
+
+System.out.println("=====EmployeeContact====="); 
+ System.out.println("PhoneNo:"+phoneNo);
+System.out.println("MailId:"+mailId);
+
+}
+
+}
+
+class EmployeeMainClass //MainClass
+
+{
+
+public static void main(String[] args)
+
+{
+
+Scanner s = new Scanner(System.in); 
+ EmployeeData ed = new EmployeeData();
+ EmployeeAddress ea = new EmployeeAddress();
+ EmployeeContact ec = new EmployeeContact();
+ 
+System.out.println("Enter the EmpId:");
+ ed.empId = s.nextLine();
+System.out.println("Enter the EmpName:"); 
+ ed.empName = s.nextLine();
+System.out.println("Enter the EmpDesg:");
+ ed.empDesg = s.nextLine(); 
+ System.out.println("Enter the EmpBSal:"); 
+ ed.empBSal = Integer.parseInt(s.nextLine());
+ 
+ 
+System.out.println("Enter the HNo:");
+ ea.hNo = s.nextLine();
+ System.out.println("Enter the StreetName:"); 
+ ea.sName = s.nextLine(); 
+ System.out.println("Enter the City:");
+ea.city = s.nextLine(); 
+ System.out.println("Enter the PinCode:");
+ ea.pinCode = Integer.parseInt(s.nextLine());
+ 
+ 
+System.out.println("Enter the PhoneNo:");
+ec.phoneNo = Long.parseLong(s.nextLine()); 
+ System.out.println("Enter the MailId:");
+ ec.mailId = s.nextLine();
+ ed.getEmployeeData(); 
+ ea.getEmployeeAddress(); 
+ ec.getEmployeeContact();
+
+
+}
+
+}
+
+----------------------------------------------------------------------------------
+
+Assignment1:
+ 
+Update Student details program by reading and displaying the details?
+
+
+
+Assignment2:
+
+Update Customer details program by reading and displaying the details?
+
+==========================================================================
+
+*imp
+
+=================='OPERATORS IN JAVA':==========================================================================================================================================
+
+=>Operator is a special symbol or keyword used to perform operations.
+ 
+ 
+=>The following are some important operators used in Java:
+
+1.Arithmetic Operators
+2.Relational Operators
+3.Logical Operators
+4.Increment/Decrement Operators
+
+
+
+1.	Arithmetic Operators:
+
+=>The operators which perform basic operations are known as Arithmetic operators.
+ 
+ 
+ Operator             Meaning
+ 
+ +	                    Addition
+ -                    	Subtraction
+ *	                    Multiplicatioon
+ /                    	Division
+ %                    	ModDivision
+
+
+
+2.	Relational Operators:
+ 
+=>The operators which perform comparisions and generate boolean result.
+
+
+
+Operator                 	Meaning
+
+>	                       Greater than
+>=	                      Greater than or equal
+<	                       Less than
+<=	                      Less than or equal
+==	                      Is equal to
+!=                      	Not Equal to
+
+
+
+
+3.	Logical Operators:
+
+=>The operators which are used to compare two comparisions and generate boolean result.
+
+
+Operator                    Meaning 
+
+&&                         	Logical AND
+||                         	Logical OR
+!	                          Logical NOT
+
+
+
+Logical AND(&&):
+
+
+
+A    B        A&&B
+
+T    T	        T
+ 
+F    T	        F
+  
+T    F	        F
+ 
+F    F        	F
+
+
+
+Logical OR(||):
+
+
+
+A   B     A||B
+
+T    T	    T
+
+F    T    	T
+
+T    F	    T
+
+F    F	    F
+
+
+
+Logical NOT(!):
+
+A    !A
+
+T    F
+
+F    T
+
+
+
+4.	Increment/Decrement Operators:
+
+=>Increment operator is used to increment the value by 1 and decrement operator is used to decrement the value by 1.
+
+
+Operator      Meaning
+
+++           	Increment
+
+--	           Decrement
+
+=================================================================================
+
+
+
+
+
+ 
+
